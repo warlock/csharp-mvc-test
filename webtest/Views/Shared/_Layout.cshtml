@@ -1,0 +1,20 @@
+﻿@{
+	ViewBag.Title = "weee";
+}
+<!DOCTYPE html>
+<html>
+<head runat="server">
+	<title>@ViewBag.Title</title>
+		<link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="~/Assets/css/bootstrap-theme.min.css" rel="sytlesheet" />
+</head>
+<body>
+<a class="btn btn-default" href="#" role="button">Link</a>
+<button class="btn btn-default" type="submit">Button</button>
+<input class="btn btn-default" type="button" value="Input">
+<input class="btn btn-default" type="submit" value="Submit">
+	<div class="container">
+			@RenderBody()
+	</div>
+	<script src="~/Assets/js/bootstrap.min.js"></script>
+</body>
